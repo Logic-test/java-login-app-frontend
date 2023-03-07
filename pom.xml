@@ -26,6 +26,19 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+	  <dependency>
+    <server>
+		<id>nexus-snapshots</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+	<server>
+		<id>nexus-releases</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+
+</dependency>
   </dependencies>
 	
   <build>
