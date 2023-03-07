@@ -28,6 +28,16 @@
 </dependency>
 
   </dependencies>
+	<server>
+		<id>nexus-snapshots</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+	<server>
+		<id>nexus-releases</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
   <build>
     <finalName>UserLoginApp</finalName>
     <pluginManagement>
