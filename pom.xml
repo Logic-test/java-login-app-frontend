@@ -4,7 +4,7 @@
   <groupId>com.ojas</groupId>
   <artifactId>UserLoginApp</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>UserLoginApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
