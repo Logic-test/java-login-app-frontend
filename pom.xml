@@ -26,9 +26,7 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-
-  </dependencies>
-	<server>
+<server>
 		<id>nexus-snapshots</id>
 		<username>admin</username>
 		<password>admin</passsword>
@@ -38,6 +36,8 @@
 		<username>admin</username>
 		<password>admin</passsword>
 	</server>
+  </dependencies>
+	
   <build>
     <finalName>UserLoginApp</finalName>
     <pluginManagement>
