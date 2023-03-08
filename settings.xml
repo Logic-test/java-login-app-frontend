@@ -5,7 +5,11 @@
   ...
   <servers>
     <server>
-      <id>nexus-snapshots</id>
+      <id>sample</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+	  <id>sample2</id>
 		<username>admin</username>
 		<password>admin</passsword>
 	</server>
