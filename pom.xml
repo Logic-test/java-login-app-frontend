@@ -49,12 +49,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>sample</id>
-		    <url>http://54.205.77.48:8081/repository/sample</url>
+		    <url>http://54.205.77.48:8081/repository/sample/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>sample2</id>
-		    <url>http://54.205.77.48:8081/repository/sample2/</url>
+		    <url>http://54.205.77.48:8081/repository/sample/</url>
 		</repository>
   	</distributionManagement>
 </project>
