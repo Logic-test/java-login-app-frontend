@@ -47,9 +47,14 @@
 		</pluginManagement>
   </build>
 	<distributionManagement>
+		 <snapshotRepository>
+		    <id>sample</id>
+		    <url>http://54.205.77.48:8081/repository/sample</url>
+		 </snapshotRepository>
+		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://52.91.198.82:8081/#admin/repository/repositories:sample</url>
+		    <id>sample2</id>
+		    <url>http://54.205.77.48:8081/repository/sample2/</url>
 		</repository>
   	</distributionManagement>
 </project>
