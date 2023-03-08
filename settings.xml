@@ -1,17 +1,29 @@
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
-                  http://maven.apache.org/xsd/settings-1.0.0.xsd">
-  ...
-  <servers>
-    <server>
-      <id>sample</id>
-		<username>admin</username>
-		<password>admin</passsword>
-	</server>
-	  <id>sample2</id>
-		<username>admin</username>
-		<password>admin</passsword>
-	</server>
-    </servers>
-    
+<mirrors>
+  <mirror>
+    <id>sample</id>
+    <url>http://54.205.77.48:8081/repository/sample/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+<profiles>
+  <profile>
+    <id>sample</id>
+    <repositories>
+      <repository>
+        <id>nexus</id>
+        <url>http://54.205.77.48:8081/repository/sample/</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+        <snapshots>
+          <enabled>true</enabled>
+        </snapshots>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+<activeProfiles>
+  <activeProfile>sample</activeProfile>
+</activeProfiles>
+
