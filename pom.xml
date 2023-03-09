@@ -33,13 +33,13 @@
 
  <distibutionManagement>
      <repository>
-     <id>NAME</id>
+     <id>com.ojas</id>
      <name>flipcart-releases</name>
      <url>http://34.229.96.78:8081/repository/flipcart-releases/</url> 
      <repository>
 	     
      <snapshotRepository>
-     <id>NAME</id>
+     <id>com.ojas</id>
      <name>flipcart-snapshots</name>
      <url>http://34.229.96.78:8081/repository/flipcart-snapshots/</url>
      <snapshotRepository>
