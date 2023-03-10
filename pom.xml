@@ -33,15 +33,15 @@
 
  <distibutionManagement>
      <repository>
-     <id>com.ojas</id>
-     <name>flipcart-releases</name>
-     <url>http://34.229.96.78:8081/repository/flipcart-releases/</url> 
+     <id>nexus</id>
+     <name>maven-release</name>
+     <url>http://54.226.236.48:8081/repository/maven-release/</url> 
      <repository>
 	     
      <snapshotRepository>
-     <id>com.ojas</id>
-     <name>flipcart-snapshots</name>
-     <url>http://34.229.96.78:8081/repository/flipcart-snapshots/</url>
+     <id>nexus</id>
+     <name>maven-snapshot</name>
+     <url>http://54.226.236.48:8081/repository/maven-snapshot/</url>
      <snapshotRepository>
 	     
     </distibutionManagement>
