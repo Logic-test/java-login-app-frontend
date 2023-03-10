@@ -1,29 +1,10 @@
-<mirrors>
-  <mirror>
-    <id>sample</id>
-    <url>http://54.205.77.48:8081/repository/sample/</url>
-    <mirrorOf>*</mirrorOf>
-  </mirror>
-</mirrors>
-
-<profiles>
-  <profile>
-    <id>sample</id>
-    <repositories>
-      <repository>
-        <id>nexus</id>
-        <url>http://54.205.77.48:8081/repository/sample/</url>
-        <releases>
-          <enabled>true</enabled>
-        </releases>
-        <snapshots>
-          <enabled>true</enabled>
-        </snapshots>
-      </repository>
-    </repositories>
-  </profile>
-</profiles>
-<activeProfiles>
-  <activeProfile>sample</activeProfile>
-</activeProfiles>
-
+<server>
+		<id>nexus-releases</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+	<server>
+		<id>nexus-snapshots</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server> 
