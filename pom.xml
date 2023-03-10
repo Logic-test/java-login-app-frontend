@@ -45,16 +45,15 @@
 			</plugins>
 		</pluginManagement>
   </build>
-	 <distibutionManagement>
-     <repository>
-     <id>nexus</id>
-     <name>maven-release</name>
-     <url>http://54.226.236.48:8081/repository/maven-release/</url> 
-     <repository>     
-     <snapshotRepository>
-     <id>nexus</id>
-     <name>maven-snapshot</name>
-     <url>http://54.226.236.48:8081/repository/maven-snapshot/</url>
-     <snapshotRepository>	     
-    </distibutionManagement>
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://54.226.236.48:8081/repository/maven-snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://54.226.236.48:8081/repository/maven-release/</url>
+		</repository>
+  	</distributionManagement>
 </project>
